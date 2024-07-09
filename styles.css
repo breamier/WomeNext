@@ -1,0 +1,29 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --background: rgb(32, 8, 55);
+}
+
+nav{
+    background-color: var(--background);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent !important;
+    border: none;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.8;
+}
+
+.carousel-item{
+    height: 550px;
+}
+h5, p{
+    background-color: transparent;
+}
